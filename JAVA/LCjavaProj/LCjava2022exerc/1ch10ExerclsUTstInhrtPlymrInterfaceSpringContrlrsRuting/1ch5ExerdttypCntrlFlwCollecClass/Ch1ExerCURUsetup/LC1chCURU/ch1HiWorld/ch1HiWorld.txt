@@ -1,0 +1,23 @@
+ch1HiWorld
+D:\LessImp\1qLimisc\1aJAVA2022LClimisc\2022LCchLimisc\1ch10LimiscClsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5LimiscDttypCntrlFlwCollecClass\1chLCjava\1chJavaProjectDataTypes\ch1HiWorld
+C:\Users\h19sl\Documents\JAVA\LCjavaProj\LCjava2022exerc\1ch10ExerclsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5ExerdttypCntrlFlwCollecClass\Ch1ExerCURUsetup\LC1chCURU\ch1HiWorld
+
+
+
+
+==  6:02 PM 4/4/2022  ===+++++++++
+C:\Users\h19sl\Documents\JAVA\LCjavaProj\LCjava2022exerc\1ch10ExerclsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5ExerdttypCntrlFlwCollecClass\Ch1ExerCURUsetup\LC1chCURU\ch1HiWorld
+Main.java
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");// write your code here
+    }
+}
+---------------------=-------------------
+
+==========+++++++++============
+
+
