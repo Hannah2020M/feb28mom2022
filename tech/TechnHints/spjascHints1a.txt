@@ -1,0 +1,6 @@
+SpecialJavaScriptHints1a
+
+
+The Number function can take a string and turn it into an integer
+console.log(Number("2345"))' 
+

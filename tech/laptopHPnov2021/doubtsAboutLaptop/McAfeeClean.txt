@@ -1,0 +1,45 @@
+
+McAfee cleanUp 
+
+
+https://smarthelp.mcafee.com/help/mcafee/19.5/total%20protection/en-us/GUID-EE77896E-08D5-4E82-86E7-BEC36F305DF3.html
+Enter search terms
+
+logo
+Contents
+McAfee Help
+Protecting all your devices
+PC Protection
+Web Protection
+Browser security
+McAfee Web Boost
+Tracker remover (QuickClean)
+QuickClean features
+Cleaning your PC
+Set up QuickClean
+Set a cleaning schedule
+Clean your PC
+Preview items to clean
+View the cleaning progress
+View the cleaning results
+Secure Virtual Private Network (VPN)
+Identity Protection
+Index
+Search
+McAfee Help
+Clean your PC
+You can run QuickClean at any time to clean the items you selected and saved when you first set up the feature.
+
+Remember to close all your programs before cleaning.
+
+1	Open QuickClean.
+ How?
+2	Click Clean.
+3	Do one of the following:
+•	Wait while QuickClean identifies the items to clean, then preview the items.
+•	Clean in the background by clicking Hide. If you want to preview which items will be removed, select When QuickClean is hidden, ask me before removing any items.
+Cleaning your PC
+See also
+Set up QuickClean
+Cleaning your PC
+Copyright © 2021 McAfee, LLC

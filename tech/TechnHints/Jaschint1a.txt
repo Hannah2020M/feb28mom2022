@@ -1,0 +1,708 @@
+JavaScript Jaschint1a RGBL621DEC
+
+let value3 = Math.floor(Math.random() * 10);
+functions can be nested inside another function
+each function can have a return statement that returns info
+
+
+
+
+function is enclosed in parantheses
+String is enclosed in quotes
+String literal is enclosed in `back tick
+          Within a template literal, any expression surrounded by ${ } will be
+          evaluated, with the resulting value included in the string.
+	let name = "Jack";
+	let currentAge = 9;
+	console.log(`Next year, ${name} will be ${currentAge + 1}.`);
+	Console Output
+
+
+	Next year, Jack will be 10.
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[const input = require('readline-sync');
+
+let info = input.question("Question text... ");
+
+PEMDAS
+JavaScript will always apply the logical NOT operator, !, first. Next, it applies 
+the arithmetic operators, followed by 
+the comparison operators. The logical AND and OR are applied last.
+
+Operator Precedence
+Precedence	Category	Operators
+(highest)	Logical NOT	!
+ 	Exponentiation	**
+ 	Multiplication and division	*, /, %
+ 	Addition and subtraction	+, -
+ 	Comparison	<=, >=, >, <
+ 	Equality	===, !==, ==, !=
+ 	Logical AND	&&
+(lowest)	Logical OR	||
+
+console.log("A message\nbroken across lines,\n\tand indented");
+Console Output
+
+A message
+broken across lines,
+   and indented
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+console.log("The interrobang character, \u203d, combines ? and !");
+Console Output
+
+The interrobang character, ‽, combines ? and !
+We can also use the backslash, \, to include quotes within a string. This is known as escaping a character.
+
+Example
+console.log("\"The dog's favorite toy is a stuffed hedgehog,\" said Chris");
+Console Output
+
+"The dog's favorite toy is a stuffed hedgehog," said Chris
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+
+
+At its most basic level, coding is how humans communicate with computers.
+	("Coma prints a space on console.");
+ 	'+'attaches two words.
+	\n tells the computer to move to the next line.
+        \t special tab character.
+JavaScript is a programming language that has can be used to make websites, visualize
+ data, and even create art!JavaScript has become a key language for web development.
+ Understanding how the internet works and being able to create web applications are 
+important skills in today's landscape. With JavaScript, you can work on your own web
+ applications and support current applications for a company.
+
+LaunchCode monitors your progress in this class through a management system called Canvas.
+We want our programs to help you build your problem solving skills and encourage you 
+to learn how to learn. canvas does not hold the actual course content; it links to 
+the lessons you need, and it keeps a record of your completed assignments and scores
+Access Canvas and the course materials at https://learn.launchcode.org/
+Repl.it is a free online code editor, and it provides a practice space to boost your
+ programming skills.Repl.it provides opportunities to respond to prompts, questions,
+ "Try It" exercises, and studios embedded within the reading. These tasks are neither
+ tracked nor scored.Results from work submitted in GitHub classroom, appear in Canvas
+ after being verified. If you want to save your edits, click the Fork button at the
+ top of the workspace, and Repl.it will store a copy of the code in your personal 
+account.While not required reading, "Booster Rockets" can boost your learning.
+
+programming fundamentals. These fundamentals are problem-solving and transferable 
+concepts. While we will cover the exact way to perform certain tasks in JavaScript,
+ we want to remind you that these tasks are relatively common and many programming 
+languages have ways to carry them out.
+Chapter 2 
+program is a set of instructions that tell a computer or other machine what to do. 
+Computers operate using binary code, which consists only of 0s and To run an algorithm,
+All of the steps must be written in binary or hex so the computer can understand.
+computers do not use English to carry out their jobs. Instead, programmers must 
+write their instructions in a form that computers understand
+ways to convert between the text readable by humans and the binary or hexadecimal 
+forms needed by machines.
+A programming language is a set of specific words and rules for teaching a 
+computer how to perform a desired task. 
+**Compiler, is a special tool that translates a programmer's work into the
+ 0s and 1s that the machines need.
+blank lines left in the code, which are also ignored by the compiler.
+
+**console is a simple window where the user can type commands or view output. 
+
+
+
+A coder's logic, reasoning, and problem solving skills apply just as well for 
+JavaScript as they do for Python, Swift and C#. To display text on the screen in 
+Python, we use print(), for 
+JavaScript we use console.log();, for
+ C# the command is Console.WriteLine();.
+ The syntax for each language varies, but the results are identical.
+
+Running inside the browser means that the code loads at the same time as a web
+ page and can modify the content. JavaScript can add or remove text, change
+ colors, produce animations, and react to mouse and keyboard clicks. 
+This makes the web page dynamic---it responds to user actions in real time, 
+and changes occur without having to refresh the page
+
+All of the changes to what you see on the web page are part of front end 
+development. They are present on your computer.
+Back end development involves passing data between web pages and servers. 
+JavaScript can be used for back end development, but other languages like 
+Java and C# are industry standards
+Features to note:
+
+File panel and menus: Allows you to add extensions, update settings, and add, open, or delete files.
+Editor panel: Your code goes here. Click on a file to open it in the editor. For most new projects, an index file will be created and opened by default.
+Console panel: Any output produced by your code will appear in this panel. The console also displays error messages, test results, and other information.
+Fork button: If you are viewing someone else's project, you can fork the content (4) and store a copy of that project to your own account. This allows you to edit the files without changing the originals, and it lets you use other programmers' work (with permission) to enhance your own.
+Run button: Executes any code written in the index file.
+Managing projects: When logged into Repl.it, you can create a new project, view saved projects, or share your projects.
+
+CHAPTER 3
+
+ code,is a set of instructions for a computer to follow,and
+Interact with users.
+ ask a user questions, store the answers, and respond by changing what is on the screen.
+Interact with other systems. 
+ interact with resources that are outside of our program. For example, we can read data
+ in from a file on our computer, or we can ask a server on the other side of the planet for information.
+Repeat tedious tasks like send a few thousand emails,spellcheck several thousand words.
+Reuse useful code snippets. 
+   Rather than copy/paste the same lines of code in multiple places, we can assign a name
+   to that code. This allows us to use it wherever we like by simply referring to its name.
+Decide what to do based on the current situation. 
+   When we write code, we often need to carry out one task under a specific set of
+ circumstances, but another task if the circumstances differ. We can write code to decide
+ which action to take.
+Of course, in order to work, code needs to follow a specific set of rules.
+Syntax is grammer rules for coding;
+Syntax refers to the structure of a language (spoken, programming, or otherwise) 
+and the rules about that structure.
+A comment is text within a program intended only for a human reader-
+--it is completely ignored by the compiler or interpreter.
+ In JavaScript, the // token starts a comment, and the rest of the line gets ignored.
+ For comments that stretch over multiple lines, the text falls between the symbols /*   */.
+
+When we used a print function ,technically, we sent the words to the console, which 
+is a simple window where the user can type commands or view output. 
+ we want to LOG the text to the CONSOLE. 
+
+	("Coma prints a space on console.");
+ 	'+'attaches two words.
+	\n tells the computer to move to the next line.
+	\t special tab character.
+ newline is an invisible character that is used to tell the machine to move to the
+ next line. It is possible to use this invisible character with the special representation \n.
+
+
+
+   to solve errors
+Ask Google for help first. If you see an error message as opposed to "Hello World!", copy it into Google and search. You may find the answer right away! If you don't find the answer or are not sure you understand it, make note of that.
+Make sure to document everything. The steps you took before you encountered the problem, screenshots of what the error message is, what your application should be able to do. This is all helpful information for the person assisting you.
+When asking your question, make sure that the person knows what documentation you have. If you took a screenshot or saved Google results related to the error message, inform the person who is helping you before you all start working together on the issue.
+Take advantage of the resources at your disposal---your instructor, TAs, and classmates are here to help.
+Complete all of the homework and practice tasks. To learn how to code, you need to code.
+Ask and answer questions.
+Recognize that making mistakes is part of the learning proces
+
+It is important for me to learn to code effectively, because I am curious about accomplishments of coding .
+ Iam amazed at the digital gadgets that use coding . I'd like to secure a coding job. I want to 
+contribute to the coding accomplishments by being a part of the coding community.
+
+
+JavaScript is among the most powerful and flexible programming languages of that power the dynamic behavior on most websites.
+
+Methods return information about an object, and are called by appending an instance with a period ., the method name, and parentheses.
+        // Returns a number between 0 and 1
+        Math.random();
+expressions are code segments that are reduced to a value. 
+Libraries
+Libraries contain methods that can be called by appending the library name with a period ., the method name, and a set of parentheses.
+            Math.random();
+            //Math is the library
+
+console.log()
+The console.log() method is used to log or print messages to the console. It can also be used to print objects and other info.
+            console.log('Hi there!');
+            // Prints: Hi there!
+            console.log(42,000);
+            //Prints 42 0
+
+If you are not sure what data type a value falls into, precede the value with typeof.
+     console.log(typeof "Hello, World!");
+     output: string
+
+Numbers
+Numbers are a primitive data type. They include the set of all integers and floating point numbers.
+            let amount = 6;
+            let price = 4.99;
+
+String .length
+The .length property of a string returns the number of characters that make up the string.
+  let message = 'good nite';
+  console.log(message.length);
+  // Prints: 9
+   
+  console.log('howdy'.length);
+  // Prints: 5
+Data Instances
+When a new piece of data is introduced into a JavaScript program, the program keeps track of it in an instance of that data type. An instance is an individual case of a data type.
+
+Booleans
+Booleans are a primitive data type. They can be either true or false.
+      let lateToWork = false;
+
+Math.random()
+The Math.random() function returns a floating-point, random number in the range from 0 (inclusive) up to but not including 1.
+
+      console.log(Math.random());
+      // Prints: 0 - 0.9
+      Math.floor()
+      The Math.floor() function returns the largest integer less than or equal to the given number.
+      
+      console.log(Math.floor(5.95));
+      // Prints: 5
+      Single Line Comments
+      In JavaScript, single-line comments are created with two consecutive forward slashes //.
+      // This line will denote a comment
+Null
+Null is a primitive data type. It represents the intentional absence of value. In code, it is represented as null.
+      let x = null;
+
+Strings
+Strings are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes ' or double quotes ".
+    let single = 'Wheres my bandit hat?';
+    let double = "Wheres my bandit hat?";
+    Arithmetic Operators
+
+
+JavaScript supports arithmetic operators for:
+
+      + addition
+      - subtraction
+      * multiplication
+      / division
+      % modulo
+      // Addition
+      5 + 5
+      // Subtraction
+      10 - 5
+      // Multiplication
+      5 * 10
+      // Division
+      10 / 5
+      // Modulo
+      10 % 5
+
+Multi-line Comments
+In JavaScript, multi-line comments are created by surrounding the lines with /* at the beginning and */ at the end. Comments are good ways for a variety of reasons like explaining a code block or indicating some hints, etc.
+  /*
+  The below configuration must be
+  changed before deployment.
+  */
+   
+  let baseUrl = 'localhost/taxwebapp/country';
+Remainder / Modulo Operator
+The remainder operator, sometimes called modulo, returns the number that remains after the right-hand number divides into the left-hand number as many times as it evenly can.
+    // calculates # of weeks in a year, rounds down to nearest integer
+    const weeksInYear = Math.floor(365/7);
+    // calcuates the number of days left over after 365 is divded by 7
+    const daysLeftOver = 365 % 7 ;
+     
+    console.log("A year has " + weeksInYear + " weeks and " + daysLeftOver + " days");
+
+
+***************************
+Assignment Operators
+An assignment operator assigns a value to its left operand based on the value of its right operand. Here are some of them:
+
++= addition assignment
+-= subtraction assignment
+*= multiplication assignment
+/= division assignment
+*****************************
+
+
+    let number = 100;
+     // Both statements will add 10
+    number = number + 10;
+    number += 10;
+     console.log(number);
+    // Prints: 120
+String Interpolation
+String interpolation is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc).
+It can be performed using template literals: text ${expression} text.
+    let age = 7;
+     
+    // String concatenation
+    'Tommy is ' + age + ' years old.';
+     
+    // String interpolation
+    `Tommy is ${age} years old.`;
+Variables
+Variables are used whenever there’s a need to store a piece of data. A variable contains data that can be used in the program elsewhere. Using variables also ensures code re-usability since it can be used to replace the same value in multiple places.
+  const currency = '$';
+  let userIncome = 85000;
+   
+  console.log(currency + userIncome + ' is more than the average income.');
+  // Prints: $85000 is more than the average income.
+Undefined
+undefined is a primitive JavaScript value that represents lack of defined value. Variables that are declared but not initialized to a value will have the value undefined.
+
+var a;
+ 
+console.log(a);
+// Prints: undefined
+Learn Javascript: Variables
+A variable is a container for data that is stored in computer memory. It is referenced by a descriptive name that a programmer can call to assign a specific value and retrieve it.
+
+// examples of variables
+    let name = "Tammy";
+    const found = false;
+    var age = 3;
+    console.log(name, found, age);
+    // Tammy, false, 3
+Declaring Variables
+To declare a variable in JavaScript, any of these three keywords can be used along with a variable name:
+
+var is used in pre-ES6 versions of JavaScript.
+let is the preferred way to declare a variable when it can be reassigned.
+const is the preferred way to declare a variable with a constant value.
+  var age;
+  let weight;
+  const numberOfFingers = 20;
+
+Template Literals
+Template literals are strings that allow embedded expressions, ${expression}. While regular strings use single ' or double " quotes, template literals use backticks instead.
+
+    let name = "Codecademy";
+    console.log(`Hello, ${name}`);
+    // Prints: Hello, Codecademy
+     
+    console.log(`Billy is ${6+8} years old.`);
+    // Prints: Billy is 14 years old.
+let Keyword
+let creates a local variable in JavaScript & can be re-assigned. Initialization during the declaration of a let variable is optional. A let variable will contain undefined if nothing is assigned to it.
+    let count;
+    console.log(count); // Prints: undefined
+    count = 10;
+    console.log(count); // Prints: 10
+const Keyword
+A constant variable can be declared using the keyword const. It must have an assignment. Any attempt of re-assigning a const variable will result in JavaScript runtime error.
+    const numberOfColumns = 4;
+    numberOfColumns = 8;
+    // TypeError: Assignment to constant variable.
+String Concatenation
+In JavaScript, multiple strings can be concatenated together using the + operator. In the example, multiple strings and variables containing string values have been concatenated. After execution of the code block, the displayText variable will contain the concatenated string.
+  let service = 'credit card';
+  let month = 'May 30th';
+  let displayText = 'Your ' + service  + ' bill is due on ' +  month + '.';
+   console.log(displayText);
+  // Prints: Your credit card bill is due on May 30th.
+
+
+
+
+
+
+
+
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+CHapter LC4 Data and variables
+expressions are code segments that are reduced to a value.
+
+The Number function can take a string and turn it into an integer
+console.log(Number("2345"))'
+  OUTPUT 2345
+The type conversion function String turns its argument into a string.
+console.log(String(123.45));
+console.log(typeof String(123.45));
+    OUTPUT 
+    123.45
+    string
+
+
+
+let programmingLanguage;  // declaration
+programmingLanguage = "JavaScript"; // assignment
+The act of assigning a variable a value for the first time is called initialization.
+let programmingLanguage = "JavaScript";
+
+Using var is old JavaScript syntax, and it differs from let in important
+ ways that we will learn about later
+creating a variable without let is valid syntax, but it results in very different behavior.
+ Such a variable will be a global variable, which we will discuss later.
+
+
+An operator is one or more characters that represents a computation like addition,
+ multiplication, or division. The values an operator works on are called operands.
+
+
+
+Arithmetic operators
+Operator	Description	Example
+Addition (+)	Adds the two operands	2 + 3 returns 5
+Subtraction (-)	Subtracts the two operands	2 - 3 returns -1
+Multiplication (*)	Multiplies the two operands	2 * 3 returns 6
+Division (/)	Divides the first operand by the second	6 / 2 returns 3
+Modulus (%)	Aka the remainder operator. Returns the integer remainder of dividing the two operands.	7 % 5 returns 2
+Exponentiation (**)	Calculates the base (first operand) to the exponent (second operand) power, that is, baseexponent	
+3 ** 2 returns 9
+
+5 ** -1 returns 0.2
+
+Increment (++)	Adds one to its operand. If used before the operand (++x), returns the value of its operand after adding one; if used after the operand (x++), returns the value of its operand before adding one.	If x is 2, then ++x sets x to 3 and returns 3, whereas x++ returns 2 and, only then, sets x to 3
+Decrement (--)	Subtracts one from its operand. The return value is analogous to that for the increment operator.	If x is 2, then --x sets x to 1 and returns 1, whereas x-- returns 2 and, only then, sets x to 1
+While the modulus operator (%) is common in programming, it is not used much outside of programming. Let's explore how it works with a few examples.
+
+The % operator returns the remainder obtained by carrying out integer division of the first operand by the second operand. Therefore, 5 % 3 is 2 because 3 goes into 5 one whole time, with a remainder of 2 left over.
+
+
+ORDER of operations
+The acronym PEMDAS can be used to remember order of operations:
+
+P = parentheses
+
+E = exponentiation
+
+M = multiplication
+
+D = division
+
+A = addition
+
+S = subtraction
+
+ the + operator can be used with string operands to concatenate, or join together two strings.
+
+
+
+The Number function can take a string and turn it into an integer
+console.log(Number("2345"))' 
+
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+Ch5 Boolean values
+There are only two boolean values---true and false. JavaScript is case-sensitive,
+ so True and False are not valid boolean values.
+The values true and false are not strings.The typeof true OR false is boolean type.
+
+tw
+a == 7 means a==7 But, a=7 does not mean 7=a.
+The following are true
+7 == "7"
+0 == false
+0 == ''
+
+A boolean expression is an expression that evaluates to either true or false. 
+console.log(Boolean("true")); is true
+console.log(Boolean("TRUE")); is true
+console.log(Boolean(0));      is false because 0 cannot be converted to boolean type 'true'
+console.log(Boolean(1));      is true
+console.log(Boolean(''));     is false
+console.log(Boolean('LaunchCode'));  is true
+
+
+Equality
+In order to properly make a comparison, the two operands must be the same type. If the two operands to == are of different data types, JavaScript will implicitly convert the operands so that the values are of the same data type before comparing the two. For this reason, the == operator is often said to measure loose equality.
+
+Type conversions with == are carried out according to a complex set of rules, and while many of these conversions make some sense, others do not.
+
+For example, Number("7") returns 7, so it makes some sense that 7 == "7" returns true.
+
+
+
+The == operator is non-transitive. We think of === strict equality as being transitive;
+ for example, if A and B are strictly equal and B and C are strictly equal, then
+ A and C are also strictly equal. 
+
+
+The operator === compares two operands without converting their data types. In other
+ words, if a and b are of different data types (say, a is a string and b is a number)
+ then a === b will always be false.
+
+ 7 == "7" returns true, because Javascript converts string "7" into number 7 before comparing
+equality operator == has the inequality operator !=, there is also a strict inequality operator, !==
+
+The operators & and | are bitwise operators,
+
+Most programmers rarely use & and |, 
+ you should never use them in place of && and ||.
+
+
+let billHasBeenPaid = false;
+
+if (!billHasBeenPaid) {
+   console.log("Your bill is due soon!");
+}
+Console Output
+
+Your bill is due soon!
+
+
+Ch7 Strings
+Strings are also  called a collection data type; ie., Data types that are comprised
+ of smaller pieces. it is not possible to alter the characters within a string;because
+strings are immutable.Immutability applies to string values and not string variables.
+Strings are ordered collection data type.
+
+strings are objects, so to understand how we can use them in our programs, we must first understand some basics about objects.
+An object is a collection of related data and operations. An operation that can be carried out on an object is known as a method. A piece of data associated with an object is known as a property.
+When calling console.log, we are calling the log method of the console object.
+
+
+A character is a string that contains exactly one element, such as 'a', "?", or even " " (a single space character).
+Other data types, like number and boolean, are not composed of any smaller parts
+strings as sequential collections of characters. 
+This means that the individual characters that make up the string are assumed to
+ be in a particular order from left to right. The string "LaunchCode" is different
+ from the string "CodeLaunch", even though they contain the exact same characters.
+
+
+ To access a character, we use the syntax someString[i], where i is the index of the character we want to access. String indices are integers representing the position of a character within a given string, and they start at 0. Thus, the first character of a string has index 0, the second has index 1, and so on.
+let jsCreator = "Brendan Eich";
+let firstInitial = jsCreator[0];
+let lastInitial = jsCreator[8];
+
+let outputStr = "JavaScript was created by somebody with initials " +
+   firstInitial + "." +
+   lastInitial + ".";
+
+console.log(outputStr);
+Console Output
+
+JavaScript was created by somebody with initials B.E.
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+string is an object.
+let nonprofit = "LaunchCode";
+
+console.log(nonprofit.toLowerCase());
+console.log(nonprofit);
+Console Output
+
+launchcode
+LaunchCode
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+ it is not possible to alter the characters within a string;because
+strings are immutable.Immutability applies to string values and not string variables.
+When the value of a variable storing a string is changed, the variable then points to 
+a new value, with the old value remaining unchanged.¶
+let nonprofit = "Launchcode";
+
+console.log(nonprofit);
+nonprofit[6] = "C";
+console.log(nonprofit);
+Console Output
+
+Launchcode
+Launchcode
+
+let nonprofit = "Launchcode";
+nonprofit = "LaunchCode";
+
+console.log(nonprofit);
+Console Output
+
+LaunchCode
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+let pet = 'cat';
+console.log(pet + 's');
+console.log("pet = ",pet); 
+console.log(pet += 's'); 
+console.log("pet = ",pet);
+
+Console output
+
+let pet = 'cat';
+console.log(pet + 's');
+console.log("pet = ",pet); 
+console.log(pet += 's'); 
+console.log("pet = ",pet);
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+
+
+Common String Methods
+Method	Syntax	Description
+indexOf	stringName.indexOf(substr)	Returns the index of the first occurrence of the substring in the string, and returns -1 if the substring is not found.
+toLowerCase	stringName.toLowerCase()	Returns a copy of the given string, with all uppercase letters converted to lowercase.
+toUpperCase	stringName.toUpperCase()	Returns a copy of the given string, with all lowercase letters converted to uppercase.
+trim	stringName.trim()	Returns a copy of the given string with the leading
+                                and trailing whitespace removed.
+replace	stringName.replace(searchChar, replacementChar)	Returns a copy of stringName,
+               with the first occurrence of searchChar replaced by replacementChar.
+slice	stringName.slice(i, j)	Returns the substring consisting of characters from
+                                index i through index j-1.
+charCodeAt takes an index and returns the ASCII code of the character at that index.
+String.fromCharCode() converts an ASCII code to an actual character, use 
+
+
+Tip
+String methods can be combined in a process called method chaining.
+ Given word = 'JavaScript';, word.toUpperCase() returns JAVASCRIPT. 
+What would word.slice(4).toUpperCase() return? 
+
+ENCODING
+Since there is no natural way to translate between characters and integers, computer scientists have had to make such translations up. Such translations are called character encodings.
+
+There are many different encodings, some of which continue to evolve as our use of data evolves. For instance, the most recent versions of the Unicode character encoding include emoji characters, such as 🌮.
+
+7.6.2.2. 
+strings are stored in a computer using the following process:
+
+Break a string into its individual characters.
+Use a character encoding, such as ASCII, to convert each of the characters to an integer.
+Convert each integer to a series of bits using decimal-to-binary integer conversion.
+Fun Fact
+JavaScript uses the UTF-16 encoding, which includes ASCII as a subset. We will rarely need anything outside of its ASCII subset, so we will usually talk about "ASCII codes" in JavaScript
+         ******************
+The string method charCodeAt takes an index and returns the ASCII code of the character at that index.
+String.fromCharCode() converts an ASCII code to an actual character, use 
+         *********************
+let codes = [76, 97, 117, 110, 99, 104, 67, 111, 100, 101];
+
+let characters = String.fromCharCode(codes[0]) + String.fromCharCode(codes[1])
+               + String.fromCharCode(codes[2]) + String.fromCharCode(codes[3])
+               + String.fromCharCode(codes[4]) + String.fromCharCode(codes[5])
+               + String.fromCharCode(codes[6]) + String.fromCharCode(codes[7])
+               + String.fromCharCode(codes[8]) + String.fromCharCode(codes[9]);
+
+console.log(characters);
+Console Output
+
+LaunchCode
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+special characters consist of special character combinations that all begin with 
+a \ (backslash).Eg: Unicode characters that are not on our keyboards,
+                    control characters, and whitespace characters.
+
+
+console.log("A message\nbroken across lines,\n\tand indented");
+Console Output
+
+A message
+broken across lines,
+   and indented
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+console.log("The interrobang character, \u203d, combines ? and !");
+Console Output
+
+The interrobang character, ‽, combines ? and !
+We can also use the backslash, \, to include quotes within a string. This is known as escaping a character.
+
+Example
+console.log("\"The dog's favorite toy is a stuffed hedgehog,\" said Chris");
+Console Output
+
+"The dog's favorite toy is a stuffed hedgehog," said Chris
+String literal is enclosed in `back tick
+          Within a template literal, any expression surrounded by ${ } will be
+          evaluated, with the resulting value included in the string.
+	let name = "Jack";
+	let currentAge = 9;
+	console.log(`Next year, ${name} will be ${currentAge + 1}.`);
+	Console Output
+
+	Next year, Jack will be 10.
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

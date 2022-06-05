@@ -1,0 +1,70 @@
+Ch8 arrays
+let value3 = Math.floor(Math.random() * 10);
+WARNING Do not use let arr1 = str1.split("");
+               USE let arr1 = str1.split('');
+ 
+Do not use str2 = arr1.reverse().join();
+       USE str2 = arr1.reverse().join('');
+
+
+Methods That Return Information About The Array
+Method	Syntax	Description
+includes	arrayName.includes(item)	Checks if an array contains the
+                                             specified item.
+indexOf	arrayName.indexOf(item)	Returns the index of the FIRST occurrence of an item in the array. If the item is not in the array, -1 is returned.
+Methods That Rearrange The Entries In The Array
+Method	Syntax	Description
+reverse	arrayName.reverse()	Reverses the order of the elements in an array.
+sort	arrayName.sort()	Arranges the elements of an array into increasing 
+                                   order (kinda).
+Methods That Add Or Remove Entries From An Array
+Method	Syntax	Description
+pop	arrayName.pop()	Removes and returns the LAST element in an array.
+push	arrayName.push(item1, item2,..)Adds one or more items to the END of an array and returns the new length.
+shift	arrayName.shift()	Removes and returns the FIRST element in an array.
+splice	arrayName.splice(index, number, item1, item2, ...)	Adds, removes or 
+                      replaces one or more elements anywhere in the array.
+unshift	arrayName.unshift(item1, item2, ...)	Adds one or more items to the START
+                              of an array and returns the new length.
+
+Methods That Create New Arrays
+Method	Syntax	Description
+concat	arr.concat(otherArray1, otherArray2, ...)	Combines two or more arrays
+                                       and returns the result as a new array.
+join	arr.join('connecter')	Combines all the elements of an array into a string.
+slice	arr.slice(start index, end index)	Copies selected entries of an array 
+	                                                 into a new array.
+	The string method slice allows the second argument to be left off. When 
+        this happens, the method behaves as if the value of the second argument
+        is the length of the string.
+
+// returns "Launch"
+"LaunchCode".slice(0, 6);
+
+// returns "Code"
+"LaunchCode".slice(6);
+
+// also returns "Code"
+"LaunchCode".slice(6, 10);
+
+split	stringName.split('delimiter')	Divides a string into smaller pieces, which
+                                       are stored in a new array.
+
+
+
+let arr =["34","42","67"];
+console.log(`arr ${arr}`);
+let strn = arr.join('');
+console.log(`strn ${strn} `);
+console.log(`length of strn ${strn.length}`);
+Console output
+
+let arr =["34","42","67"];
+console.log(`arr ${arr}`);
+let strn = arr.join('');
+console.log(`strn ${strn} `);
+console.log(`length of strn ${strn.length}`);
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+
+

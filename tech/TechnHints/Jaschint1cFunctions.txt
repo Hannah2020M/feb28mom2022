@@ -1,0 +1,148 @@
+JavaScriptHint1cFunc
+let value3 = Math.floor(Math.random() * 10);
+Abstraction
+Abstraction is used to hide background details or any unnecessary implementation about the data so that users only see the required information.
+Encapsulation is used to hide the values or state of a structured data
+ object inside a class, preventing unauthorized parties' direct access to them.
+   Encapsulation refers to the bundling of data with the methods that operate 
+   on that data.
+A real-life example of polymorphism, a person at the same time can have different 
+   characteristics. Like a man at the same time is a father, a husband, an employee.
+
+Polymorphism is defined as an object that can take on various forms.
+The kind of polymorphism the object undergoes depends on when the object takes its 
+          form and what part of the object is transforming.
+Polymorphism is the provision of a single interface to entities of different types,
+ or the use of a  single symbol to represent multiple different types.” in programming languages and type theory,
+     Subtype polymorphism (run time)
+     A parametric polymorphism specifically provides a way to use one function 
+             (the same code) to interact with multiple types.
+              An example would be a list of types. A parametric polymorphism could
+              remove, add, or replace elements of this list regardless of the 
+              element’s type.
+     For ad hoc polymorphism, functions with the same name act differently for 
+              different types.Eg: 3+4 returns 7 whereas, "Fo"+"rum" returns Forum
+
+     Coercion polymorphism is the direct transformation of one type into another. It happens when one type gets cast into another type. 
+
+
+      
+Ch10 functions
+
+functions help us keep our code DRY
+D DOn't
+R Repeat
+Y Yourself
+is a principle of software development aimed at reducing repetition of 
+software patterns, replacing it with 
+abstractions or using 
+data normalization to avoid redundancy.
+
+
+It is better to code a function to do only one thing.
+Smaller functions are easier to debug, for one thing. And by separating single responsibilities into individual functions, we also make our code easier to read and more reusable.
+
+
+You may notice that a function like console.log doesn't seem to return anything. 
+***We will soon learn that every function returns a value, regardless of whether or 
+not that value is used, or is even useful.
+
+IIn some cases, calling a function results in an action that changes the state 
+of a program outside of the function itself. 
+Such a behavior is known as a side effect.
+
+Example
+Calling console.log results in output to the console, which is a side effect.
+
+
+name is a parameter. It is part of the function definition, and behaves like a variable that exists only within the function.
+
+The value "Lamar" that is used when we invoke the function on line 5 is an argument. It is a specific value that is used during the function call.
+
+return stops the execution of a function intentionally, to force a function to stop execution.
+The practice of using functions to build other functions is known as function composition
+
+Dynamic means the parameter is not hard coded, and can be changed to different value
+ to be an argument of a function. 10.8.
+
+
+[[[[[[[[[[[[[[[[[[[[12:01 PM 1/17/2022
+return stops the execution of a function intentionally, to force a function to stop execution.
+The practice of using functions to build other functions is known as function composition
+
+
+function isEven(n) {
+   return n % 2 === 0;
+}
+
+
+]]]]]]]]]]]]]]]]]]]]]]]]]
+
+CH 11 MORE ON FUNCTIONS
+Value is a specific piece of data.
+Functions are also values, and have a data type.
+A  data type is a group of values that share characteristics, such as strings,
+      numbers,boolean,NaN,undefined,. 
+functions are of type function, just as 42 and 33 are of type number.
+   let helloFunc = hello();
+The variable helloFunc can be thought of as an alias for the function hello. When we call the function helloFunc, JavaScript sees that it refers to the function hello and calls that specific function.
+
+When we use a variable name, we are really using its value. 
+ functions are values. They can be used just like general values. For example:
+
+Functions may be assigned to variables.
+Functions may be used in expressions, such as comparisons.
+Functions may be converted to other data types.
+Functions may be printed using console.log.
+Functions may be passed as arguments to other functions.
+Functions may be returned from other functions.
+CH11.2 
+
+ JavaScript, allows us to create anonymous functions, which do not have names. We can create an anonymous function by simply leaving off the function name when defining it:
+
+
+
+
+
+[[[[[[[[[[[[[[[[[[11:01 PM 1/20/2022
+function hello(name = "World") {
+   return `Hello, ${name}!`;
+}
+
+console.log(hello());
+console.log(hello("Lamar"));
+Console Output
+
+Hello, World!
+Hello, Lamar!
+In this example, name is a parameter. It is part of the function definition, and behaves like a variable that exists only within the function.
+
+The value "Lamar" that is used when we invoke the function on line 5 is an argument. It is a specific value that is used during the function call.
+
+The difference between a parameter and an argument is the same as that between a variable and a value.
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+
+This example calls hello with two arguments, even though it is defined with only one parameter.
+
+function hello(name = "World") {
+   return `Hello, ${name}!`;
+}
+
+console.log(hello("Jim", "McKelvey"));
+Console Output
+
+Hello, Jim!
+Fun Fact
+These "extra" arguments can still be accessed using a special object named arguments, which is made available to every function. If you are curious, read more at MDN
+
+
+
+
+
+
+
+
+
+
+

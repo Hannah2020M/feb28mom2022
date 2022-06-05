@@ -1,0 +1,16 @@
+McAfeeQuickCleanRemovedTHeseTempFilesOn2022Feb1Tues
+
+.ses
+bc3902d8132f43e3ae086a009979fa88.db.ses
+en-US
+cv_debug.log
+
+
+
+wct****
+
+
+EC79
+F109
+wctFA70.tmp, 
+WinSAT
