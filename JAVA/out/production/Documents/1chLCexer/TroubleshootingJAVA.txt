@@ -1,0 +1,64 @@
+
+TroubleshootingJAVA
+D:\LessImp\1qLimisc\1aJAVA2022LClimisc\2022LCchLimisc\1ch10LimiscClsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5LimiscDttypCntrlFlwCollecClass\1chLCjava\1chJavaProjectDataTypes\1chJAVADttyp\1chJavaWebDevExer
+also stored in
+C:\Users\h19sl\Documents\JAVA\LCjavaProj\LCjava2022exerc\1ch10ExerclsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5ExerdttypCntrlFlwCollecClass\Ch1ExerCURUsetup\LC1chCURU\1chLCexer
+
+
+TOKEN did not work so I used Login with Github in 1.6.1.4 LC textbook JAva
+https://education.launchcode.org/intro-to-professional-web-dev/index.html
+9:02 PM 4/4/2022
+
+
+1.6.2. Troubleshooting
+https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.8
+https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+
+
+
+1.6.2.1. ClassNotFoundException
+After setting uo the project, if you experience java.lang.ClassNotFoundException when you run the code, follow these steps:
+
+Select File > Close Project. If you have any other IntelliJ projects open, close them as well.
+
+Find the Close Project option under the File menu.
+Close Project
+
+You should see the IntelliJ startup window. Click the gear icon next to java-web-dev-exercises and select Remove from Recent Projects.
+
+Startup with Project
+Remove project from recently used list.
+
+From the same startup window, select File –> New –> Project from Existing Sources.
+
+Startup without Project
+Start project from existing sources.
+
+When prompted, select the java-web-dev-exercises folder and click Open.
+
+In the next panel, select the Create project from existing sources radio button. Click Next.
+
+Create project from existing sources radio button.
+Create the project from the cloned repository.
+
+Follow the steps that IntelliJ guides you through, accepting all defaults. Each time you are prompted to overwrite IntelliJ settings files, confirm that you want to do so.
+
+Eventually the project will open, and you can successfully run your code!
+
+========++++===============
+Java’s identifier naming rules are somewhat hard to parse, so a good rule-of-thumb is that you should use only letters, numbers, and the underscore character _, and they should always start with a letter.
+
+The naming conventions are more like guidelines than rules and are what other Java coders expect to see when reading your code.
+ .....................=.................................
+Identifier Type	                   Convention	Examples
+Package	All lowercase	demos.javawebdevelopment, org.launchcode.utilities
+Class	Start with an uppercase letter	Scanner, System, Cello
+Method	Start with a lower case letter, and use camelCase to represent multi-word method names	nextInt(), getId()
+Instance variable	Start with a lowercase letter and use camelCase	id, firstName
+Constant	All uppercase letters, words separated by underscores	MAX_INT
+.........................=.....................
+Constants in Java are variables created using both static and final modifiers. For example: static final Double PI = 3.14159
+Naming convention web site 
+https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.8
+https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+===========+++++++++++============

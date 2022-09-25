@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<!--
+HannahMungamuriEducation
+-->
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title> CHILDREN OF THE SAME FATHER </title>
+      <link href="HannahMungamuriResume2styles.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <main>
+        <article>
+         <header>
+            <p id="mainHeading"> HANNAH MUNGAMURI</p><br>
+      <p1>   9108 Pennant Ln,    &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp     Phone : 314-397-3735</p1><br>
+      <p1> Saint Louis,  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  Email : hannah1527@hotmail.com<br>
+        &nbsp MO-63126
+     </p1>
+      
+    </header>
+
+
+
+<!--
+===========++++++++++++++=================
+-->
+
+
+<!--
+===========++++++++++++++=================
+-->
+
+<b>High School(1975-1986)--- Graduated </b><br>
+
+<p2>
+&nbsp St.Joseph's Catholic Girls' high School  <br>
+&nbsp &nbsp Amaravathi Rd,Opp.to ACCollege,<br>
+&nbsp &nbsp  Kannavari thota, Guntur,AP,India-522002.<br> 
+&nbsp &nbsp  Ph: 011 91 863-221-8668  <br> <br>
+<!--
+ <img style="margin-left: 60px;" src="https://ucarecdn.com/6bea9609-d464-4bed-a849-7c3b79c3620a/StJosephsCatholicGirlsHighSchoolGunturKannavarithotaGunturAP522002India.jpg
+
+" alt="St Josephs Catholic Girls High School">
+
+-->
+
+</p2><br><br>
+
+<b>Intermediate college (1986-89) ---Graduated</b><br>
+<p2>
+Majors: &nbsp &nbsp Mathematics,Physics and Chemistry.<br>
+&nbsp Andhra Christian College,<br>&nbsp Guntur,
+ AP, India 522002.<br><br>
+<!--
+ <img style="margin-left: 60px;" src="https://ucarecdn.com/0a2869e3-7f80-453b-b3e2-a3f1c021442d/AndhraChristianCollegeGUnturAP522002India.jpg
+" alt="Andhra Christian College">
+-->   
+
+</p2>
+<br><br>
+
+<b>Bachelor's in Electronics (1989-92) --- Graduated </b><br>
+<p2>
+Majors : Mathematics ,Physics and Electronics <br>
+&nbsp TJPS college, Pattabhipuram Rd,
+ <br>
+&nbsp Guntur,AP, India 522006<br> <br>
+<!--
+ <img style="margin-left: 60px;" src="https://ucarecdn.com/37a06113-fc94-4f67-9ae5-d33afc24a3de/TJPScollegeGunturAPindia.jpg
+
+" alt="TJPS college,Guntur,AP,India">
+-->
+
+
+</p2>
+<br><br>
+
+
+<b>Bachelor's in Education (1992-93) --- Graduated </b><br>
+<p2>
+Majors : Mathematics ,Physics and English <br>
+&nbsp Andhra Lutheran college of Education <br>
+&nbsp Ring road, Guntur,AP,India <br> <br>
+<!--
+ <img style="margin-left: 60px;" src="https://ucarecdn.com/ac063593-03b1-441f-83ec-5747e6a2a63f/AndhraLutheranCOllegeOfEducationBrodipetGunturAP522002India.jpg
+
+" alt="Andhra Lutheran College of Education">
+-->
+</p2>
+
+
+
+
+
+<br>
+<br>
+<b>Master's in Electronics (1993-94) --- Graduated </b><br>
+<p2>
+Majors :  Electronics and IC architecure <br>
+&nbsp Nagarjuna University, <br>
+&nbsp  Guntur,AP,India <br> <br>
+</p2>
+
+<br>
+<!--
+<br>
+-->
+
+<b>Diploma in Theology (1993-95) ----  Graduated </b><br>
+<p2>
+Majors :  Church History,Evangelism <br>
+&nbsp TAFTEE St.Matthew's Lutheran Church, <br>
+&nbsp  North Parish,Guntur,AP,India <br> <br>
+<!--
+<br>
+<img style="margin-left: 60px;" src="https://ucarecdn.com/acc674b7-a7b1-49e2-9132-547fede124c3/StMatthewsLutheranChurchNorthParishBrodipetGunturAp522002India.jpg
+
+
+" alt="St.Matthew's Lutheran Church,Guntur, AP,India">
+-->
+
+</p2>
+
+
+<br>
+<br>
+
+
+<b>Diploma in Electronic service Tech(2006)--- Graduated</b> <br>
+<p2>
+MO Tech College of Engineering, Saint Louis,MO. <br> <br>
+</p2>
+ 
+
+
+<b>Java prgramming SNCD (2015-2016)CSE  --- 
+Graduated</b> <br>
+<p2>
+Java Programming course CSE 131 <br>
+ Washington University in Saint Louis,MO 
+ <br> <br>
+</p2>
+</b><br>
+ 
+<br>
+<img style="margin-left: 60px;" src="https://ucarecdn.com/1ee7d990-c224-4d0f-9875-623f4c11723d/WashingtonUniversityInSaintLouisMOusa.jpg
+
+
+" alt="Wasington university in Saint Louis MO">
+
+</p2>
+<!--
+===========++++++++++++++=================
+-->
+
+
+      
+   </main>
+   <script src="script.js"></script>
+   </body>
+</html>

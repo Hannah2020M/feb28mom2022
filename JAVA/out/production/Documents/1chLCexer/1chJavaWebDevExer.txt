@@ -1,0 +1,33 @@
+1chJavaWebDevExer
+stored in D:\LessImp\1qLimisc\1aJAVA2022LClimisc\2022LCchLimisc\1ch10LimiscClsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5LimiscDttypCntrlFlwCollecClass\1chLCjava\1chJavaProjectDataTypes\1chJAVADttyp\1chJavaWebDevExer
+also stored in
+C:\Users\h19sl\Documents\JAVA\LCjavaProj\LCjava2022exerc\1ch10ExerclsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5ExerdttypCntrlFlwCollecClass\Ch1ExerCURUsetup\LC1chCURU\1chLCexer
+
+
+
+FORKED https://github.com/LaunchCodeEducation/java-web-dev-exercises
+https://github.com/Hannah2020M/java-web-dev-exercises
+workspace
+
+C:\Users\h19sl\Documents\JAVA\LCjavaProj\LCjava2022exerc\
+1ch10ExerclsUTstInhrtPlymrInterfaceSpringContrlrsRuting\
+1ch5ExerdttypCntrlFlwCollecClass\Ch1ExerCURUsetup\LC1chCURU\1chLCexer
+
+D:\LessImp\1qLimisc\1aJAVA2022LClimisc\2022LCchLimisc\
+1ch10LimiscClsUTstInhrtPlymrInterfaceSpringContrlrsRuting\
+1ch5LimiscDttypCntrlFlwCollecClass\1chLCjava\1chJavaProjectDataTypes\
+1chJAVADttyp\1chJavaWebDevExer
+
+
+==   6:10 PM 4/4/2022  ===++++++++++======
+
+File --> ProjectStructure--->
+Name : 1chLCexer
+SDK 15Oracle
+Language level: 15 - Text blocks
+
+Do NOT select :- 17 - Sealed types, always-strict floating-point semantics 
+Compiler output: ~\Documents\JAVA\LCjavaProj\LCjava2022exerc\1ch10ExerclsUTstInhrtPlymrInterfaceSpringContrlrsRuting\1ch5ExerdttypCntrlFlwCollecClass\Ch1ExerCURUsetup\LC1chCURU\1chLCexer\out
+-------  6:47 PM 4/4/2022 =------------------
+
+==== end of 6:10 PM 4/4/2022  ======++++++++++++++=============
